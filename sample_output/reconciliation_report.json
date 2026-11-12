@@ -1,0 +1,116 @@
+{
+  "checks": [
+    {
+      "check": "curated debits == credits per currency",
+      "passed": true,
+      "detail": "balanced"
+    },
+    {
+      "check": "every curated transaction balances per currency",
+      "passed": true,
+      "detail": "0 unbalanced"
+    },
+    {
+      "check": "ledger.account_id exists in dim_account",
+      "passed": true,
+      "detail": "0 orphans"
+    },
+    {
+      "check": "ledger.txn_id exists in fact_transaction",
+      "passed": true,
+      "detail": "0 orphans"
+    },
+    {
+      "check": "fact_transaction.leg_count matches ledger",
+      "passed": true,
+      "detail": "0 mismatches"
+    },
+    {
+      "check": "leg currency == account currency",
+      "passed": true,
+      "detail": "0 mismatches"
+    },
+    {
+      "check": "event_id unique in curated ledger",
+      "passed": true,
+      "detail": "0 duplicates"
+    },
+    {
+      "check": "every curated row has run_id/source_file/row",
+      "passed": true,
+      "detail": "0 untraceable"
+    },
+    {
+      "check": "every reject has source_file/row/raw_record",
+      "passed": true,
+      "detail": "0 untraceable"
+    },
+    {
+      "check": "no source row is both curated and rejected",
+      "passed": true,
+      "detail": "0 overlaps"
+    },
+    {
+      "check": "per run: rows_read == loaded + already_loaded + rejected",
+      "passed": true,
+      "detail": "all runs reconcile"
+    },
+    {
+      "check": "reject_record rows for legs.csv == run run-20261112T082804Z-4150f8 rows_rejected",
+      "passed": true,
+      "detail": "table=54 run=54"
+    },
+    {
+      "check": "raw_record rows for legs.csv == run run-20261112T082804Z-4150f8 rows_read",
+      "passed": true,
+      "detail": "raw=214 read=214"
+    },
+    {
+      "check": "every curated row traces to a raw_record",
+      "passed": true,
+      "detail": "0 without raw"
+    },
+    {
+      "check": "imbalanced transactions absent from curated layer",
+      "passed": true,
+      "detail": "0 leaked"
+    }
+  ],
+  "all_passed": true,
+  "summary": {
+    "rejects_by_reason": {
+      "TXN_QUARANTINED": 21,
+      "TXN_IMBALANCED": 6,
+      "TXN_LEG_ORDER_VIOLATION": 4,
+      "FUTURE_TIMESTAMP": 3,
+      "MALFORMED_ROW": 3,
+      "MISSING_REQUIRED_FIELD": 3,
+      "ACCOUNT_CURRENCY_MISMATCH": 2,
+      "DUPLICATE_EVENT": 2,
+      "INVALID_TIMESTAMP": 2,
+      "TXN_LEG_SEQ_INVALID": 2,
+      "TXN_TOO_FEW_LEGS": 2,
+      "CONFLICTING_DUPLICATE": 1,
+      "INVALID_AMOUNT": 1,
+      "INVALID_DIRECTION": 1,
+      "UNKNOWN_ACCOUNT": 1
+    },
+    "late_arrival_entries": 0,
+    "customer_accounts_overdrawn_now": 2,
+    "ever_overdrawn_customer_accounts": 2
+  },
+  "export_row_counts": {
+    "ledger_entries.csv": 160,
+    "transactions.csv": 75,
+    "rejects.csv": 54,
+    "imbalance_report.csv": 3,
+    "raw_records.csv": 239,
+    "account_balances.csv": 25,
+    "pipeline_runs.csv": 2
+  },
+  "label_evaluation": {
+    "rows_labelled": 214,
+    "mismatches": 0,
+    "examples": []
+  }
+}

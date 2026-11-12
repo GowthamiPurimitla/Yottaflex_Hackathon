@@ -1,0 +1,215 @@
+source_file,row_number,txn_id,expected_status,expected_reason_code,reason_description,injected_defect
+legs.csv,2,txn_00000050,loaded,,,
+legs.csv,3,txn_00000001,loaded,,,
+legs.csv,4,txn_00000002,loaded,,,
+legs.csv,5,txn_00000002,loaded,,,
+legs.csv,6,txn_00000033,loaded,,,
+legs.csv,7,txn_00000003,loaded,,,
+legs.csv,8,txn_00000004,loaded,,,
+legs.csv,9,txn_00000004,loaded,,,
+legs.csv,10,txn_00000089,rejected,TXN_LEG_ORDER_VIOLATION,Event time goes backwards as leg_seq increases,leg_order
+legs.csv,11,txn_00000005,loaded,,,
+legs.csv,12,txn_00000006,loaded,,,
+legs.csv,13,txn_00000006,loaded,,,
+legs.csv,14,txn_00000007,loaded,,,
+legs.csv,15,txn_00000007,loaded,,,
+legs.csv,16,txn_00000008,loaded,,,
+legs.csv,17,txn_00000008,loaded,,,
+legs.csv,18,txn_00000009,loaded,,,
+legs.csv,19,txn_00000009,loaded,,,
+legs.csv,20,txn_00000010,loaded,,,
+legs.csv,21,txn_00000010,loaded,,,
+legs.csv,22,txn_00000011,loaded,,,
+legs.csv,23,txn_00000011,loaded,,,
+legs.csv,24,txn_00000012,loaded,,,
+legs.csv,25,txn_00000012,loaded,,,
+legs.csv,26,txn_00000001,loaded,,,
+legs.csv,27,txn_00000013,loaded,,,
+legs.csv,28,txn_00000014,loaded,,,
+legs.csv,29,txn_00000027,loaded,,,
+legs.csv,30,txn_00000015,loaded,,,
+legs.csv,31,txn_00000015,loaded,,,
+legs.csv,32,txn_00000016,loaded,,,
+legs.csv,33,txn_00000016,loaded,,,
+legs.csv,34,txn_00000017,loaded,,,
+legs.csv,35,txn_00000017,loaded,,,
+legs.csv,36,txn_00000018,loaded,,,
+legs.csv,37,txn_00000018,loaded,,,
+legs.csv,38,txn_00000019,loaded,,,
+legs.csv,39,txn_00000019,loaded,,,
+legs.csv,40,txn_00000020,loaded,,,
+legs.csv,41,txn_00000020,loaded,,,
+legs.csv,42,txn_00000021,loaded,,,
+legs.csv,43,txn_00000021,loaded,,,
+legs.csv,44,txn_00000022,rejected,MISSING_REQUIRED_FIELD,A required field is empty,missing_field
+legs.csv,45,txn_00000022,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",missing_field
+legs.csv,46,txn_00000023,loaded,,,
+legs.csv,47,txn_00000023,loaded,,,
+legs.csv,48,txn_00000024,loaded,,,
+legs.csv,49,txn_00000024,loaded,,,
+legs.csv,50,txn_00000025,loaded,,,
+legs.csv,51,txn_00000025,loaded,,,
+legs.csv,52,txn_00000026,loaded,,,
+legs.csv,53,txn_00000026,loaded,,,
+legs.csv,54,txn_00000026,loaded,,,
+legs.csv,55,txn_00000014,loaded,,,
+legs.csv,56,txn_00000027,loaded,,,
+legs.csv,57,txn_00000028,loaded,,,
+legs.csv,58,txn_00000051,loaded,,,
+legs.csv,59,txn_00000029,rejected,ACCOUNT_CURRENCY_MISMATCH,Leg currency differs from the account's currency,currency_mismatch
+legs.csv,60,txn_00000029,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",currency_mismatch
+legs.csv,61,txn_00000029,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",currency_mismatch
+legs.csv,62,txn_00000030,loaded,,,
+legs.csv,63,txn_00000030,loaded,,,
+legs.csv,64,txn_00000030,loaded,,,
+legs.csv,65,txn_00000031,rejected,TXN_IMBALANCED,Total debits do not equal total credits (per currency),imbalanced
+legs.csv,66,txn_00000049,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",bad_timestamp
+legs.csv,67,txn_00000032,loaded,,,
+legs.csv,68,txn_00000032,loaded,,,
+legs.csv,69,txn_00000003,loaded,,,
+legs.csv,70,txn_00000050,loaded,,,
+legs.csv,71,txn_00000034,rejected,TXN_IMBALANCED,Total debits do not equal total credits (per currency),imbalanced
+legs.csv,72,txn_00000034,rejected,TXN_IMBALANCED,Total debits do not equal total credits (per currency),imbalanced
+legs.csv,73,txn_00000035,loaded,,,
+legs.csv,74,txn_00000035,loaded,,,
+legs.csv,75,txn_00000036,loaded,,,
+legs.csv,76,txn_00000036,loaded,,,
+legs.csv,77,txn_00000037,loaded,,,
+legs.csv,78,txn_00000037,loaded,,,
+legs.csv,79,txn_00000013,loaded,,,
+legs.csv,80,txn_00000038,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",malformed
+legs.csv,81,txn_00000039,rejected,MALFORMED_ROW,Row has more or fewer fields than the header,malformed
+legs.csv,82,txn_00000039,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",malformed
+legs.csv,83,txn_00000040,loaded,,,
+legs.csv,84,txn_00000040,loaded,,,
+legs.csv,85,txn_00000041,loaded,,,duplicate_exact
+legs.csv,86,txn_00000062,loaded,,,
+legs.csv,87,txn_00000041,loaded,,,duplicate_exact
+legs.csv,88,txn_00000042,loaded,,,
+legs.csv,89,txn_00000042,loaded,,,
+legs.csv,90,txn_00000043,loaded,,,
+legs.csv,91,txn_00000043,loaded,,,
+legs.csv,92,txn_00000044,loaded,,,
+legs.csv,93,txn_00000044,loaded,,,
+legs.csv,94,txn_00000045,loaded,,,
+legs.csv,95,txn_00000045,loaded,,,
+legs.csv,96,txn_00000046,loaded,,,
+legs.csv,97,txn_00000046,loaded,,,
+legs.csv,98,txn_00000047,loaded,,,
+legs.csv,99,txn_00000047,loaded,,,
+legs.csv,100,txn_00000047,loaded,,,
+legs.csv,101,txn_00000048,rejected,TXN_TOO_FEW_LEGS,A transaction needs at least 2 legs,single_leg
+legs.csv,102,txn_00000049,rejected,INVALID_TIMESTAMP,Timestamp is not ISO-8601 with a time zone,bad_timestamp
+legs.csv,103,txn_00000031,rejected,TXN_IMBALANCED,Total debits do not equal total credits (per currency),imbalanced
+legs.csv,104,txn_00000033,loaded,,,
+legs.csv,105,txn_00000050,loaded,,,
+legs.csv,106,txn_00000038,rejected,MALFORMED_ROW,Row has more or fewer fields than the header,malformed
+legs.csv,107,txn_00000073,loaded,,,
+legs.csv,108,txn_00000028,loaded,,,
+legs.csv,109,txn_00000052,loaded,,,
+legs.csv,110,txn_00000052,loaded,,,
+legs.csv,111,txn_00000053,loaded,,,
+legs.csv,112,txn_00000053,loaded,,,
+legs.csv,113,txn_00000053,loaded,,,
+legs.csv,114,txn_00000054,loaded,,,
+legs.csv,115,txn_00000054,loaded,,,
+legs.csv,116,txn_00000055,loaded,,,
+legs.csv,117,txn_00000055,loaded,,,
+legs.csv,118,txn_00000079,loaded,,,
+legs.csv,119,txn_00000056,loaded,,,
+legs.csv,120,txn_00000057,rejected,TXN_TOO_FEW_LEGS,A transaction needs at least 2 legs,single_leg
+legs.csv,121,txn_00000058,loaded,,,
+legs.csv,122,txn_00000058,loaded,,,
+legs.csv,123,txn_00000059,loaded,,,
+legs.csv,124,txn_00000059,loaded,,,
+legs.csv,125,txn_00000059,loaded,,,
+legs.csv,126,txn_00000060,loaded,,,
+legs.csv,127,txn_00000060,loaded,,,
+legs.csv,128,txn_00000041,rejected,DUPLICATE_EVENT,Same event already appeared earlier in this file (exact copy),duplicate_exact
+legs.csv,129,txn_00000061,rejected,MISSING_REQUIRED_FIELD,A required field is empty,missing_field
+legs.csv,130,txn_00000061,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",missing_field
+legs.csv,131,txn_00000061,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",missing_field
+legs.csv,132,txn_00000041,loaded,,,duplicate_exact
+legs.csv,133,txn_00000062,loaded,,,
+legs.csv,134,txn_00000063,rejected,ACCOUNT_CURRENCY_MISMATCH,Leg currency differs from the account's currency,currency_mismatch
+legs.csv,135,txn_00000063,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",currency_mismatch
+legs.csv,136,txn_00000064,loaded,,,
+legs.csv,137,txn_00000064,loaded,,,
+legs.csv,138,txn_00000065,rejected,FUTURE_TIMESTAMP,Event time is in the future,future_ts
+legs.csv,139,txn_00000065,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",future_ts
+legs.csv,140,txn_00000066,loaded,,,
+legs.csv,141,txn_00000066,loaded,,,
+legs.csv,142,txn_00000100,loaded,,,
+legs.csv,143,txn_00000067,loaded,,,
+legs.csv,144,txn_00000068,loaded,,,
+legs.csv,145,txn_00000068,loaded,,,
+legs.csv,146,txn_00000068,loaded,,,
+legs.csv,147,txn_00000100,loaded,,,
+legs.csv,148,txn_00000069,loaded,,,
+legs.csv,149,txn_00000070,rejected,TXN_LEG_ORDER_VIOLATION,Event time goes backwards as leg_seq increases,leg_order
+legs.csv,150,txn_00000070,rejected,TXN_LEG_ORDER_VIOLATION,Event time goes backwards as leg_seq increases,leg_order
+legs.csv,151,txn_00000071,loaded,,,
+legs.csv,152,txn_00000071,loaded,,,
+legs.csv,153,txn_00000072,loaded,,,
+legs.csv,154,txn_00000072,loaded,,,
+legs.csv,155,txn_00000069,loaded,,,
+legs.csv,156,txn_00000051,loaded,,,
+legs.csv,157,txn_00000074,loaded,,,duplicate_exact
+legs.csv,158,txn_00000074,rejected,DUPLICATE_EVENT,Same event already appeared earlier in this file (exact copy),duplicate_exact
+legs.csv,159,txn_00000074,loaded,,,duplicate_exact
+legs.csv,160,txn_00000074,loaded,,,duplicate_exact
+legs.csv,161,txn_00000075,loaded,,,
+legs.csv,162,txn_00000075,loaded,,,
+legs.csv,163,txn_00000075,loaded,,,
+legs.csv,164,txn_00000076,loaded,,,
+legs.csv,165,txn_00000076,loaded,,,
+legs.csv,166,txn_00000077,loaded,,,
+legs.csv,167,txn_00000077,loaded,,,
+legs.csv,168,txn_00000078,loaded,,,
+legs.csv,169,txn_00000078,loaded,,,
+legs.csv,170,txn_00000056,loaded,,,
+legs.csv,171,txn_00000079,loaded,,,
+legs.csv,172,txn_00000080,loaded,,,
+legs.csv,173,txn_00000080,loaded,,,
+legs.csv,174,txn_00000081,rejected,INVALID_AMOUNT,Amount is not a positive number with valid decimals for its currency,bad_amount
+legs.csv,175,txn_00000081,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",bad_amount
+legs.csv,176,txn_00000081,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",bad_amount
+legs.csv,177,txn_00000082,loaded,,,
+legs.csv,178,txn_00000082,loaded,,,
+legs.csv,179,txn_00000083,rejected,UNKNOWN_ACCOUNT,Account does not exist in the accounts list,unknown_account
+legs.csv,180,txn_00000083,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",unknown_account
+legs.csv,181,txn_00000084,loaded,,,
+legs.csv,182,txn_00000084,loaded,,,
+legs.csv,183,txn_00000085,rejected,INVALID_TIMESTAMP,Timestamp is not ISO-8601 with a time zone,bad_timestamp
+legs.csv,184,txn_00000085,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",bad_timestamp
+legs.csv,185,txn_00000086,rejected,MALFORMED_ROW,Row has more or fewer fields than the header,malformed
+legs.csv,186,txn_00000086,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",malformed
+legs.csv,187,txn_00000087,loaded,,,
+legs.csv,188,txn_00000087,loaded,,,
+legs.csv,189,txn_00000088,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",duplicate_conflict
+legs.csv,190,txn_00000088,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",duplicate_conflict
+legs.csv,191,txn_00000005,loaded,,,
+legs.csv,192,txn_00000089,rejected,TXN_LEG_ORDER_VIOLATION,Event time goes backwards as leg_seq increases,leg_order
+legs.csv,193,txn_00000090,rejected,INVALID_DIRECTION,direction must be D (debit) or C (credit),bad_direction
+legs.csv,194,txn_00000090,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",bad_direction
+legs.csv,195,txn_00000073,loaded,,,
+legs.csv,196,txn_00000091,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",missing_field
+legs.csv,197,txn_00000092,rejected,TXN_LEG_SEQ_INVALID,leg_seq values are not 1..n without gaps or repeats,leg_seq_gap
+legs.csv,198,txn_00000092,rejected,TXN_LEG_SEQ_INVALID,leg_seq values are not 1..n without gaps or repeats,leg_seq_gap
+legs.csv,199,txn_00000093,loaded,,,
+legs.csv,200,txn_00000093,loaded,,,
+legs.csv,201,txn_00000094,loaded,,,
+legs.csv,202,txn_00000094,loaded,,,
+legs.csv,203,txn_00000095,loaded,,,
+legs.csv,204,txn_00000095,loaded,,,
+legs.csv,205,txn_00000096,loaded,,,
+legs.csv,206,txn_00000096,loaded,,,
+legs.csv,207,txn_00000097,rejected,FUTURE_TIMESTAMP,Event time is in the future,future_ts
+legs.csv,208,txn_00000097,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",future_ts
+legs.csv,209,txn_00000098,rejected,FUTURE_TIMESTAMP,Event time is in the future,future_ts
+legs.csv,210,txn_00000098,rejected,TXN_QUARANTINED,"Another leg of this transaction was rejected, so the whole transaction is held back",future_ts
+legs.csv,211,txn_00000099,rejected,TXN_IMBALANCED,Total debits do not equal total credits (per currency),imbalanced
+legs.csv,212,txn_00000099,rejected,TXN_IMBALANCED,Total debits do not equal total credits (per currency),imbalanced
+legs.csv,213,txn_00000067,loaded,,,
+legs.csv,214,txn_00000091,rejected,MISSING_REQUIRED_FIELD,A required field is empty,missing_field
+legs.csv,215,txn_00000088,rejected,CONFLICTING_DUPLICATE,Same event_id appeared again with different values,duplicate_conflict

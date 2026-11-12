@@ -1,0 +1,4 @@
+txn_id,currency,total_debits,total_credits,difference,source_file,run_id
+txn_00000031,USD,1972.11,1973.11,-1.00,legs.csv,run-20261112T082804Z-4150f8
+txn_00000034,USD,3110.82,3111.82,-1.00,legs.csv,run-20261112T082804Z-4150f8
+txn_00000099,USD,3078.70,3079.70,-1.00,legs.csv,run-20261112T082804Z-4150f8

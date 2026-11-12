@@ -1,0 +1,2 @@
+run_id,status,started_at,finished_at,legs_file,rows_read,rows_loaded,rows_already_loaded,rows_rejected,txns_loaded,txns_quarantined,failure_reason
+run-20261112T082904Z-6668b6,success,2026-11-12T08:29:04.312151Z,2026-11-12T08:29:18.877099Z,legs.csv,131423,125350,0,6073,58390,2610,

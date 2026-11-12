@@ -1,0 +1,161 @@
+txn_id,leg_seq,event_id,event_time,account_id,account_name,direction,amount,currency,description,arrived_late,source_file,source_row,run_id
+txn_00000001,1,evt_00000001_1,2025-01-01T00:00:07Z,acc_int_usd,Bank clearing account (USD),DEBIT,10000.00,USD,Opening funding - bank side,no,legs.csv,3,run-20261112T082804Z-4150f8
+txn_00000001,2,evt_00000001_2,2025-01-01T00:00:07Z,acc_cust_000001,Alice Nguyen #1 (USD),CREDIT,10000.00,USD,Opening funding deposit,no,legs.csv,26,run-20261112T082804Z-4150f8
+txn_00000002,1,evt_00000002_1,2025-01-01T00:00:14Z,acc_int_usd,Bank clearing account (USD),DEBIT,10000.00,USD,Opening funding - bank side,no,legs.csv,4,run-20261112T082804Z-4150f8
+txn_00000002,2,evt_00000002_2,2025-01-01T00:00:14Z,acc_cust_000006,Farid Nguyen #6 (USD),CREDIT,10000.00,USD,Opening funding deposit,no,legs.csv,5,run-20261112T082804Z-4150f8
+txn_00000003,1,evt_00000003_1,2025-01-01T00:00:21Z,acc_int_usd,Bank clearing account (USD),DEBIT,10000.00,USD,Opening funding - bank side,no,legs.csv,69,run-20261112T082804Z-4150f8
+txn_00000003,2,evt_00000003_2,2025-01-01T00:00:21Z,acc_cust_000011,Alice Patel #11 (USD),CREDIT,10000.00,USD,Opening funding deposit,no,legs.csv,7,run-20261112T082804Z-4150f8
+txn_00000004,1,evt_00000004_1,2025-01-01T00:00:28Z,acc_int_usd,Bank clearing account (USD),DEBIT,10000.00,USD,Opening funding - bank side,no,legs.csv,8,run-20261112T082804Z-4150f8
+txn_00000004,2,evt_00000004_2,2025-01-01T00:00:28Z,acc_cust_000016,Farid Patel #16 (USD),CREDIT,10000.00,USD,Opening funding deposit,no,legs.csv,9,run-20261112T082804Z-4150f8
+txn_00000005,1,evt_00000005_1,2025-01-01T00:00:35Z,acc_int_eur,Bank clearing account (EUR),DEBIT,10000.00,EUR,Opening funding - bank side,no,legs.csv,191,run-20261112T082804Z-4150f8
+txn_00000005,2,evt_00000005_2,2025-01-01T00:00:35Z,acc_cust_000002,Ben Nguyen #2 (EUR),CREDIT,10000.00,EUR,Opening funding deposit,no,legs.csv,11,run-20261112T082804Z-4150f8
+txn_00000006,1,evt_00000006_1,2025-01-01T00:00:42Z,acc_int_eur,Bank clearing account (EUR),DEBIT,10000.00,EUR,Opening funding - bank side,no,legs.csv,12,run-20261112T082804Z-4150f8
+txn_00000006,2,evt_00000006_2,2025-01-01T00:00:42Z,acc_cust_000007,Grace Nguyen #7 (EUR),CREDIT,10000.00,EUR,Opening funding deposit,no,legs.csv,13,run-20261112T082804Z-4150f8
+txn_00000007,1,evt_00000007_1,2025-01-01T00:00:49Z,acc_int_eur,Bank clearing account (EUR),DEBIT,10000.00,EUR,Opening funding - bank side,no,legs.csv,14,run-20261112T082804Z-4150f8
+txn_00000007,2,evt_00000007_2,2025-01-01T00:00:49Z,acc_cust_000012,Ben Patel #12 (EUR),CREDIT,10000.00,EUR,Opening funding deposit,no,legs.csv,15,run-20261112T082804Z-4150f8
+txn_00000008,1,evt_00000008_1,2025-01-01T00:00:56Z,acc_int_eur,Bank clearing account (EUR),DEBIT,10000.00,EUR,Opening funding - bank side,no,legs.csv,16,run-20261112T082804Z-4150f8
+txn_00000008,2,evt_00000008_2,2025-01-01T00:00:56Z,acc_cust_000017,Grace Patel #17 (EUR),CREDIT,10000.00,EUR,Opening funding deposit,no,legs.csv,17,run-20261112T082804Z-4150f8
+txn_00000009,1,evt_00000009_1,2025-01-01T00:01:03Z,acc_int_gbp,Bank clearing account (GBP),DEBIT,10000.00,GBP,Opening funding - bank side,no,legs.csv,18,run-20261112T082804Z-4150f8
+txn_00000009,2,evt_00000009_2,2025-01-01T00:01:03Z,acc_cust_000003,Carla Nguyen #3 (GBP),CREDIT,10000.00,GBP,Opening funding deposit,no,legs.csv,19,run-20261112T082804Z-4150f8
+txn_00000010,1,evt_00000010_1,2025-01-01T00:01:10Z,acc_int_gbp,Bank clearing account (GBP),DEBIT,10000.00,GBP,Opening funding - bank side,no,legs.csv,20,run-20261112T082804Z-4150f8
+txn_00000010,2,evt_00000010_2,2025-01-01T00:01:10Z,acc_cust_000008,Hiro Nguyen #8 (GBP),CREDIT,10000.00,GBP,Opening funding deposit,no,legs.csv,21,run-20261112T082804Z-4150f8
+txn_00000011,1,evt_00000011_1,2025-01-01T00:01:17Z,acc_int_gbp,Bank clearing account (GBP),DEBIT,10000.00,GBP,Opening funding - bank side,no,legs.csv,22,run-20261112T082804Z-4150f8
+txn_00000011,2,evt_00000011_2,2025-01-01T00:01:17Z,acc_cust_000013,Carla Patel #13 (GBP),CREDIT,10000.00,GBP,Opening funding deposit,no,legs.csv,23,run-20261112T082804Z-4150f8
+txn_00000012,1,evt_00000012_1,2025-01-01T00:01:24Z,acc_int_gbp,Bank clearing account (GBP),DEBIT,10000.00,GBP,Opening funding - bank side,no,legs.csv,24,run-20261112T082804Z-4150f8
+txn_00000012,2,evt_00000012_2,2025-01-01T00:01:24Z,acc_cust_000018,Hiro Patel #18 (GBP),CREDIT,10000.00,GBP,Opening funding deposit,no,legs.csv,25,run-20261112T082804Z-4150f8
+txn_00000013,1,evt_00000013_1,2025-01-01T00:01:31Z,acc_int_inr,Bank clearing account (INR),DEBIT,10000.00,INR,Opening funding - bank side,no,legs.csv,79,run-20261112T082804Z-4150f8
+txn_00000013,2,evt_00000013_2,2025-01-01T00:01:31Z,acc_cust_000004,Dev Nguyen #4 (INR),CREDIT,10000.00,INR,Opening funding deposit,no,legs.csv,27,run-20261112T082804Z-4150f8
+txn_00000014,1,evt_00000014_1,2025-01-01T00:01:38Z,acc_int_inr,Bank clearing account (INR),DEBIT,10000.00,INR,Opening funding - bank side,no,legs.csv,28,run-20261112T082804Z-4150f8
+txn_00000014,2,evt_00000014_2,2025-01-01T00:01:38Z,acc_cust_000009,Isla Nguyen #9 (INR),CREDIT,10000.00,INR,Opening funding deposit,no,legs.csv,55,run-20261112T082804Z-4150f8
+txn_00000015,1,evt_00000015_1,2025-01-01T00:01:45Z,acc_int_inr,Bank clearing account (INR),DEBIT,10000.00,INR,Opening funding - bank side,no,legs.csv,30,run-20261112T082804Z-4150f8
+txn_00000015,2,evt_00000015_2,2025-01-01T00:01:45Z,acc_cust_000014,Dev Patel #14 (INR),CREDIT,10000.00,INR,Opening funding deposit,no,legs.csv,31,run-20261112T082804Z-4150f8
+txn_00000016,1,evt_00000016_1,2025-01-01T00:01:52Z,acc_int_inr,Bank clearing account (INR),DEBIT,10000.00,INR,Opening funding - bank side,no,legs.csv,32,run-20261112T082804Z-4150f8
+txn_00000016,2,evt_00000016_2,2025-01-01T00:01:52Z,acc_cust_000019,Isla Patel #19 (INR),CREDIT,10000.00,INR,Opening funding deposit,no,legs.csv,33,run-20261112T082804Z-4150f8
+txn_00000017,1,evt_00000017_1,2025-01-01T00:01:59Z,acc_int_jpy,Bank clearing account (JPY),DEBIT,1000000,JPY,Opening funding - bank side,no,legs.csv,34,run-20261112T082804Z-4150f8
+txn_00000017,2,evt_00000017_2,2025-01-01T00:01:59Z,acc_cust_000005,Elena Nguyen #5 (JPY),CREDIT,1000000,JPY,Opening funding deposit,no,legs.csv,35,run-20261112T082804Z-4150f8
+txn_00000018,1,evt_00000018_1,2025-01-01T00:02:06Z,acc_int_jpy,Bank clearing account (JPY),DEBIT,1000000,JPY,Opening funding - bank side,no,legs.csv,36,run-20261112T082804Z-4150f8
+txn_00000018,2,evt_00000018_2,2025-01-01T00:02:06Z,acc_cust_000010,Jon Nguyen #10 (JPY),CREDIT,1000000,JPY,Opening funding deposit,no,legs.csv,37,run-20261112T082804Z-4150f8
+txn_00000019,1,evt_00000019_1,2025-01-01T00:02:13Z,acc_int_jpy,Bank clearing account (JPY),DEBIT,1000000,JPY,Opening funding - bank side,no,legs.csv,38,run-20261112T082804Z-4150f8
+txn_00000019,2,evt_00000019_2,2025-01-01T00:02:13Z,acc_cust_000015,Elena Patel #15 (JPY),CREDIT,1000000,JPY,Opening funding deposit,no,legs.csv,39,run-20261112T082804Z-4150f8
+txn_00000020,1,evt_00000020_1,2025-01-01T00:02:20Z,acc_int_jpy,Bank clearing account (JPY),DEBIT,1000000,JPY,Opening funding - bank side,no,legs.csv,40,run-20261112T082804Z-4150f8
+txn_00000020,2,evt_00000020_2,2025-01-01T00:02:20Z,acc_cust_000020,Jon Patel #20 (JPY),CREDIT,1000000,JPY,Opening funding deposit,no,legs.csv,41,run-20261112T082804Z-4150f8
+txn_00000021,1,evt_00000021_1,2025-01-01T00:02:27Z,acc_cust_000010,Jon Nguyen #10 (JPY),DEBIT,1,JPY,ATM withdrawal,no,legs.csv,42,run-20261112T082804Z-4150f8
+txn_00000021,2,evt_00000021_2,2025-01-01T00:02:27Z,acc_int_jpy,Bank clearing account (JPY),CREDIT,1,JPY,ATM withdrawal - bank side,no,legs.csv,43,run-20261112T082804Z-4150f8
+txn_00000023,1,evt_00000023_1,2025-01-01T00:02:41Z,acc_cust_000007,Grace Nguyen #7 (EUR),DEBIT,1380.53,EUR,Transfer to Grace Patel #17,no,legs.csv,46,run-20261112T082804Z-4150f8
+txn_00000023,2,evt_00000023_2,2025-01-01T00:02:41Z,acc_cust_000017,Grace Patel #17 (EUR),CREDIT,1380.53,EUR,Transfer from Grace Nguyen #7,no,legs.csv,47,run-20261112T082804Z-4150f8
+txn_00000024,1,evt_00000024_1,2025-01-01T00:02:48Z,acc_cust_000016,Farid Patel #16 (USD),DEBIT,2681.06,USD,Transfer to Farid Nguyen #6,no,legs.csv,48,run-20261112T082804Z-4150f8
+txn_00000024,2,evt_00000024_2,2025-01-01T00:02:48Z,acc_cust_000006,Farid Nguyen #6 (USD),CREDIT,2681.06,USD,Transfer from Farid Patel #16,no,legs.csv,49,run-20261112T082804Z-4150f8
+txn_00000025,1,evt_00000025_1,2025-01-01T00:02:55Z,acc_int_usd,Bank clearing account (USD),DEBIT,2303.22,USD,Cash deposit - bank side,no,legs.csv,50,run-20261112T082804Z-4150f8
+txn_00000025,2,evt_00000025_2,2025-01-01T00:02:55Z,acc_cust_000016,Farid Patel #16 (USD),CREDIT,2303.22,USD,Cash deposit,no,legs.csv,51,run-20261112T082804Z-4150f8
+txn_00000026,1,evt_00000026_1,2025-01-01T00:03:02Z,acc_cust_000004,Dev Nguyen #4 (INR),DEBIT,2570.36,INR,Split payment out,no,legs.csv,52,run-20261112T082804Z-4150f8
+txn_00000026,2,evt_00000026_2,2025-01-01T00:03:02Z,acc_cust_000019,Isla Patel #19 (INR),CREDIT,2198.91,INR,Split payment from Dev Nguyen #4,no,legs.csv,53,run-20261112T082804Z-4150f8
+txn_00000026,3,evt_00000026_3,2025-01-01T00:03:02Z,acc_cust_000014,Dev Patel #14 (INR),CREDIT,371.45,INR,Split payment from Dev Nguyen #4,no,legs.csv,54,run-20261112T082804Z-4150f8
+txn_00000027,1,evt_00000027_1,2025-01-01T00:03:09Z,acc_cust_000012,Ben Patel #12 (EUR),DEBIT,4425.49,EUR,ATM withdrawal,no,legs.csv,29,run-20261112T082804Z-4150f8
+txn_00000027,2,evt_00000027_2,2025-01-01T00:03:09Z,acc_int_eur,Bank clearing account (EUR),CREDIT,4425.49,EUR,ATM withdrawal - bank side,no,legs.csv,56,run-20261112T082804Z-4150f8
+txn_00000028,1,evt_00000028_1,2025-01-01T00:03:16Z,acc_cust_000001,Alice Nguyen #1 (USD),DEBIT,4675.78,USD,Transfer to Farid Patel #16,no,legs.csv,57,run-20261112T082804Z-4150f8
+txn_00000028,2,evt_00000028_2,2025-01-01T00:03:16Z,acc_cust_000016,Farid Patel #16 (USD),CREDIT,4675.78,USD,Transfer from Alice Nguyen #1,no,legs.csv,108,run-20261112T082804Z-4150f8
+txn_00000030,1,evt_00000030_1,2025-01-01T00:03:30Z,acc_cust_000016,Farid Patel #16 (USD),DEBIT,2028.43,USD,Split payment out,no,legs.csv,62,run-20261112T082804Z-4150f8
+txn_00000030,2,evt_00000030_2,2025-01-01T00:03:30Z,acc_cust_000001,Alice Nguyen #1 (USD),CREDIT,881.27,USD,Split payment from Farid Patel #16,no,legs.csv,63,run-20261112T082804Z-4150f8
+txn_00000030,3,evt_00000030_3,2025-01-01T00:03:30Z,acc_cust_000006,Farid Nguyen #6 (USD),CREDIT,1147.16,USD,Split payment from Farid Patel #16,no,legs.csv,64,run-20261112T082804Z-4150f8
+txn_00000032,1,evt_00000032_1,2025-01-01T00:03:44Z,acc_cust_000016,Farid Patel #16 (USD),DEBIT,1337.23,USD,Transfer to Alice Patel #11,no,legs.csv,67,run-20261112T082804Z-4150f8
+txn_00000032,2,evt_00000032_2,2025-01-01T00:03:44Z,acc_cust_000011,Alice Patel #11 (USD),CREDIT,1337.23,USD,Transfer from Farid Patel #16,no,legs.csv,68,run-20261112T082804Z-4150f8
+txn_00000033,1,evt_00000033_1,2025-01-01T00:03:51Z,acc_int_jpy,Bank clearing account (JPY),DEBIT,32352,JPY,Cash deposit - bank side,no,legs.csv,6,run-20261112T082804Z-4150f8
+txn_00000033,2,evt_00000033_2,2025-01-01T00:03:51Z,acc_cust_000005,Elena Nguyen #5 (JPY),CREDIT,32352,JPY,Cash deposit,no,legs.csv,104,run-20261112T082804Z-4150f8
+txn_00000035,1,evt_00000035_1,2025-01-01T00:04:05Z,acc_cust_000001,Alice Nguyen #1 (USD),DEBIT,1991.19,USD,Transfer to Alice Patel #11,no,legs.csv,73,run-20261112T082804Z-4150f8
+txn_00000035,2,evt_00000035_2,2025-01-01T00:04:05Z,acc_cust_000011,Alice Patel #11 (USD),CREDIT,1991.19,USD,Transfer from Alice Nguyen #1,no,legs.csv,74,run-20261112T082804Z-4150f8
+txn_00000036,1,evt_00000036_1,2025-01-01T00:04:12Z,acc_cust_000016,Farid Patel #16 (USD),DEBIT,2875.54,USD,ATM withdrawal,no,legs.csv,75,run-20261112T082804Z-4150f8
+txn_00000036,2,evt_00000036_2,2025-01-01T00:04:12Z,acc_int_usd,Bank clearing account (USD),CREDIT,2875.54,USD,ATM withdrawal - bank side,no,legs.csv,76,run-20261112T082804Z-4150f8
+txn_00000037,1,evt_00000037_1,2025-01-01T00:04:19Z,acc_cust_000014,Dev Patel #14 (INR),DEBIT,0.01,INR,ATM withdrawal,no,legs.csv,77,run-20261112T082804Z-4150f8
+txn_00000037,2,evt_00000037_2,2025-01-01T00:04:19Z,acc_int_inr,Bank clearing account (INR),CREDIT,0.01,INR,ATM withdrawal - bank side,no,legs.csv,78,run-20261112T082804Z-4150f8
+txn_00000040,1,evt_00000040_1,2025-01-01T00:04:40Z,acc_cust_000004,Dev Nguyen #4 (INR),DEBIT,2650.56,INR,ATM withdrawal,no,legs.csv,83,run-20261112T082804Z-4150f8
+txn_00000040,2,evt_00000040_2,2025-01-01T00:04:40Z,acc_int_inr,Bank clearing account (INR),CREDIT,2650.56,INR,ATM withdrawal - bank side,no,legs.csv,84,run-20261112T082804Z-4150f8
+txn_00000041,1,evt_00000041_1,2025-01-01T00:04:47Z,acc_cust_000012,Ben Patel #12 (EUR),DEBIT,4585.13,EUR,Split payment out,no,legs.csv,85,run-20261112T082804Z-4150f8
+txn_00000041,2,evt_00000041_2,2025-01-01T00:04:47Z,acc_cust_000002,Ben Nguyen #2 (EUR),CREDIT,675.05,EUR,Split payment from Ben Patel #12,no,legs.csv,132,run-20261112T082804Z-4150f8
+txn_00000041,3,evt_00000041_3,2025-01-01T00:04:47Z,acc_cust_000007,Grace Nguyen #7 (EUR),CREDIT,3910.08,EUR,Split payment from Ben Patel #12,no,legs.csv,87,run-20261112T082804Z-4150f8
+txn_00000042,1,evt_00000042_1,2025-01-01T00:04:54Z,acc_cust_000002,Ben Nguyen #2 (EUR),DEBIT,4753.96,EUR,Transfer to Grace Patel #17,no,legs.csv,88,run-20261112T082804Z-4150f8
+txn_00000042,2,evt_00000042_2,2025-01-01T00:04:54Z,acc_cust_000017,Grace Patel #17 (EUR),CREDIT,4753.96,EUR,Transfer from Ben Nguyen #2,no,legs.csv,89,run-20261112T082804Z-4150f8
+txn_00000043,1,evt_00000043_1,2025-01-01T00:05:01Z,acc_cust_000006,Farid Nguyen #6 (USD),DEBIT,4396.14,USD,Transfer to Alice Patel #11,no,legs.csv,90,run-20261112T082804Z-4150f8
+txn_00000043,2,evt_00000043_2,2025-01-01T00:05:01Z,acc_cust_000011,Alice Patel #11 (USD),CREDIT,4396.14,USD,Transfer from Farid Nguyen #6,no,legs.csv,91,run-20261112T082804Z-4150f8
+txn_00000044,1,evt_00000044_1,2025-01-01T00:05:08Z,acc_cust_000002,Ben Nguyen #2 (EUR),DEBIT,2127.20,EUR,Transfer to Ben Patel #12,no,legs.csv,92,run-20261112T082804Z-4150f8
+txn_00000044,2,evt_00000044_2,2025-01-01T00:05:08Z,acc_cust_000012,Ben Patel #12 (EUR),CREDIT,2127.20,EUR,Transfer from Ben Nguyen #2,no,legs.csv,93,run-20261112T082804Z-4150f8
+txn_00000045,1,evt_00000045_1,2025-01-01T00:05:15Z,acc_cust_000012,Ben Patel #12 (EUR),DEBIT,3594.19,EUR,ATM withdrawal,no,legs.csv,94,run-20261112T082804Z-4150f8
+txn_00000045,2,evt_00000045_2,2025-01-01T00:05:15Z,acc_int_eur,Bank clearing account (EUR),CREDIT,3594.19,EUR,ATM withdrawal - bank side,no,legs.csv,95,run-20261112T082804Z-4150f8
+txn_00000046,1,evt_00000046_1,2025-01-01T00:05:22Z,acc_cust_000012,Ben Patel #12 (EUR),DEBIT,2138.21,EUR,Transfer to Ben Nguyen #2,no,legs.csv,96,run-20261112T082804Z-4150f8
+txn_00000046,2,evt_00000046_2,2025-01-01T00:05:22Z,acc_cust_000002,Ben Nguyen #2 (EUR),CREDIT,2138.21,EUR,Transfer from Ben Patel #12,no,legs.csv,97,run-20261112T082804Z-4150f8
+txn_00000047,1,evt_00000047_1,2025-01-01T00:05:29Z,acc_cust_000006,Farid Nguyen #6 (USD),DEBIT,2443.20,USD,Split payment out,no,legs.csv,98,run-20261112T082804Z-4150f8
+txn_00000047,2,evt_00000047_2,2025-01-01T00:05:29Z,acc_cust_000001,Alice Nguyen #1 (USD),CREDIT,1827.66,USD,Split payment from Farid Nguyen #6,no,legs.csv,99,run-20261112T082804Z-4150f8
+txn_00000047,3,evt_00000047_3,2025-01-01T00:05:29Z,acc_cust_000011,Alice Patel #11 (USD),CREDIT,615.54,USD,Split payment from Farid Nguyen #6,no,legs.csv,100,run-20261112T082804Z-4150f8
+txn_00000050,1,evt_00000050_1,2025-01-01T00:05:50Z,acc_cust_000007,Grace Nguyen #7 (EUR),DEBIT,2481.50,EUR,Split payment out,no,legs.csv,70,run-20261112T082804Z-4150f8
+txn_00000050,2,evt_00000050_2,2025-01-01T00:05:50Z,acc_cust_000017,Grace Patel #17 (EUR),CREDIT,1226.16,EUR,Split payment from Grace Nguyen #7,no,legs.csv,105,run-20261112T082804Z-4150f8
+txn_00000050,3,evt_00000050_3,2025-01-01T00:05:50Z,acc_cust_000002,Ben Nguyen #2 (EUR),CREDIT,1255.34,EUR,Split payment from Grace Nguyen #7,no,legs.csv,2,run-20261112T082804Z-4150f8
+txn_00000051,1,evt_00000051_1,2025-01-01T00:05:57Z,acc_cust_000004,Dev Nguyen #4 (INR),DEBIT,1295.38,INR,ATM withdrawal,no,legs.csv,156,run-20261112T082804Z-4150f8
+txn_00000051,2,evt_00000051_2,2025-01-01T00:05:57Z,acc_int_inr,Bank clearing account (INR),CREDIT,1295.38,INR,ATM withdrawal - bank side,no,legs.csv,58,run-20261112T082804Z-4150f8
+txn_00000052,1,evt_00000052_1,2025-01-01T00:06:04Z,acc_cust_000001,Alice Nguyen #1 (USD),DEBIT,178.69,USD,ATM withdrawal,no,legs.csv,109,run-20261112T082804Z-4150f8
+txn_00000052,2,evt_00000052_2,2025-01-01T00:06:04Z,acc_int_usd,Bank clearing account (USD),CREDIT,178.69,USD,ATM withdrawal - bank side,no,legs.csv,110,run-20261112T082804Z-4150f8
+txn_00000053,1,evt_00000053_1,2025-01-01T00:06:11Z,acc_cust_000011,Alice Patel #11 (USD),DEBIT,2364.77,USD,Split payment out,no,legs.csv,111,run-20261112T082804Z-4150f8
+txn_00000053,2,evt_00000053_2,2025-01-01T00:06:11Z,acc_cust_000006,Farid Nguyen #6 (USD),CREDIT,1563.96,USD,Split payment from Alice Patel #11,no,legs.csv,112,run-20261112T082804Z-4150f8
+txn_00000053,3,evt_00000053_3,2025-01-01T00:06:11Z,acc_cust_000016,Farid Patel #16 (USD),CREDIT,800.81,USD,Split payment from Alice Patel #11,no,legs.csv,113,run-20261112T082804Z-4150f8
+txn_00000054,1,evt_00000054_1,2025-01-01T00:06:18Z,acc_cust_000011,Alice Patel #11 (USD),DEBIT,3978.03,USD,Transfer to Farid Nguyen #6,no,legs.csv,114,run-20261112T082804Z-4150f8
+txn_00000054,2,evt_00000054_2,2025-01-01T00:06:18Z,acc_cust_000006,Farid Nguyen #6 (USD),CREDIT,3978.03,USD,Transfer from Alice Patel #11,no,legs.csv,115,run-20261112T082804Z-4150f8
+txn_00000055,1,evt_00000055_1,2025-01-01T00:06:25Z,acc_int_usd,Bank clearing account (USD),DEBIT,2456.06,USD,Cash deposit - bank side,no,legs.csv,116,run-20261112T082804Z-4150f8
+txn_00000055,2,evt_00000055_2,2025-01-01T00:06:25Z,acc_cust_000006,Farid Nguyen #6 (USD),CREDIT,2456.06,USD,Cash deposit,no,legs.csv,117,run-20261112T082804Z-4150f8
+txn_00000056,1,evt_00000056_1,2025-01-01T00:06:32Z,acc_cust_000016,Farid Patel #16 (USD),DEBIT,2093.48,USD,ATM withdrawal,no,legs.csv,170,run-20261112T082804Z-4150f8
+txn_00000056,2,evt_00000056_2,2025-01-01T00:06:32Z,acc_int_usd,Bank clearing account (USD),CREDIT,2093.48,USD,ATM withdrawal - bank side,no,legs.csv,119,run-20261112T082804Z-4150f8
+txn_00000058,1,evt_00000058_1,2025-01-01T00:06:46Z,acc_cust_000012,Ben Patel #12 (EUR),DEBIT,3015.42,EUR,Transfer to Ben Nguyen #2,no,legs.csv,121,run-20261112T082804Z-4150f8
+txn_00000058,2,evt_00000058_2,2025-01-01T00:06:46Z,acc_cust_000002,Ben Nguyen #2 (EUR),CREDIT,3015.42,EUR,Transfer from Ben Patel #12,no,legs.csv,122,run-20261112T082804Z-4150f8
+txn_00000059,1,evt_00000059_1,2025-01-01T00:06:53Z,acc_cust_000007,Grace Nguyen #7 (EUR),DEBIT,2524.76,EUR,Split payment out,no,legs.csv,123,run-20261112T082804Z-4150f8
+txn_00000059,2,evt_00000059_2,2025-01-01T00:06:53Z,acc_cust_000002,Ben Nguyen #2 (EUR),CREDIT,315.66,EUR,Split payment from Grace Nguyen #7,no,legs.csv,124,run-20261112T082804Z-4150f8
+txn_00000059,3,evt_00000059_3,2025-01-01T00:06:53Z,acc_cust_000017,Grace Patel #17 (EUR),CREDIT,2209.10,EUR,Split payment from Grace Nguyen #7,no,legs.csv,125,run-20261112T082804Z-4150f8
+txn_00000060,1,evt_00000060_1,2025-01-01T00:07:00Z,acc_cust_000016,Farid Patel #16 (USD),DEBIT,2136.67,USD,ATM withdrawal,no,legs.csv,126,run-20261112T082804Z-4150f8
+txn_00000060,2,evt_00000060_2,2025-01-01T00:07:00Z,acc_int_usd,Bank clearing account (USD),CREDIT,2136.67,USD,ATM withdrawal - bank side,no,legs.csv,127,run-20261112T082804Z-4150f8
+txn_00000062,1,evt_00000062_1,2025-01-01T00:07:14Z,acc_cust_000006,Farid Nguyen #6 (USD),DEBIT,4058.74,USD,Transfer to Alice Patel #11,no,legs.csv,86,run-20261112T082804Z-4150f8
+txn_00000062,2,evt_00000062_2,2025-01-01T00:07:14Z,acc_cust_000011,Alice Patel #11 (USD),CREDIT,4058.74,USD,Transfer from Farid Nguyen #6,no,legs.csv,133,run-20261112T082804Z-4150f8
+txn_00000064,1,evt_00000064_1,2025-01-01T00:07:28Z,acc_cust_000016,Farid Patel #16 (USD),DEBIT,969.82,USD,ATM withdrawal,no,legs.csv,136,run-20261112T082804Z-4150f8
+txn_00000064,2,evt_00000064_2,2025-01-01T00:07:28Z,acc_int_usd,Bank clearing account (USD),CREDIT,969.82,USD,ATM withdrawal - bank side,no,legs.csv,137,run-20261112T082804Z-4150f8
+txn_00000066,1,evt_00000066_1,2025-01-01T00:07:42Z,acc_cust_000016,Farid Patel #16 (USD),DEBIT,204.31,USD,Transfer to Farid Nguyen #6,no,legs.csv,140,run-20261112T082804Z-4150f8
+txn_00000066,2,evt_00000066_2,2025-01-01T00:07:42Z,acc_cust_000006,Farid Nguyen #6 (USD),CREDIT,204.31,USD,Transfer from Farid Patel #16,no,legs.csv,141,run-20261112T082804Z-4150f8
+txn_00000067,1,evt_00000067_1,2025-01-01T00:07:49Z,acc_cust_000017,Grace Patel #17 (EUR),DEBIT,1659.96,EUR,Transfer to Ben Patel #12,no,legs.csv,213,run-20261112T082804Z-4150f8
+txn_00000067,2,evt_00000067_2,2025-01-01T00:07:49Z,acc_cust_000012,Ben Patel #12 (EUR),CREDIT,1659.96,EUR,Transfer from Grace Patel #17,no,legs.csv,143,run-20261112T082804Z-4150f8
+txn_00000068,1,evt_00000068_1,2025-01-01T00:07:56Z,acc_cust_000007,Grace Nguyen #7 (EUR),DEBIT,4827.84,EUR,Split payment out,no,legs.csv,144,run-20261112T082804Z-4150f8
+txn_00000068,2,evt_00000068_2,2025-01-01T00:07:56Z,acc_cust_000017,Grace Patel #17 (EUR),CREDIT,4651.50,EUR,Split payment from Grace Nguyen #7,no,legs.csv,145,run-20261112T082804Z-4150f8
+txn_00000068,3,evt_00000068_3,2025-01-01T00:07:56Z,acc_cust_000002,Ben Nguyen #2 (EUR),CREDIT,176.34,EUR,Split payment from Grace Nguyen #7,no,legs.csv,146,run-20261112T082804Z-4150f8
+txn_00000069,1,evt_00000069_1,2025-01-01T00:08:03Z,acc_int_usd,Bank clearing account (USD),DEBIT,325.75,USD,Cash deposit - bank side,no,legs.csv,155,run-20261112T082804Z-4150f8
+txn_00000069,2,evt_00000069_2,2025-01-01T00:08:03Z,acc_cust_000001,Alice Nguyen #1 (USD),CREDIT,325.75,USD,Cash deposit,no,legs.csv,148,run-20261112T082804Z-4150f8
+txn_00000071,1,evt_00000071_1,2025-01-01T00:08:17Z,acc_int_usd,Bank clearing account (USD),DEBIT,1823.05,USD,Cash deposit - bank side,no,legs.csv,151,run-20261112T082804Z-4150f8
+txn_00000071,2,evt_00000071_2,2025-01-01T00:08:17Z,acc_cust_000011,Alice Patel #11 (USD),CREDIT,1823.05,USD,Cash deposit,no,legs.csv,152,run-20261112T082804Z-4150f8
+txn_00000072,1,evt_00000072_1,2025-01-01T00:08:24Z,acc_cust_000005,Elena Nguyen #5 (JPY),DEBIT,262758,JPY,Transfer to Elena Patel #15,no,legs.csv,153,run-20261112T082804Z-4150f8
+txn_00000072,2,evt_00000072_2,2025-01-01T00:08:24Z,acc_cust_000015,Elena Patel #15 (JPY),CREDIT,262758,JPY,Transfer from Elena Nguyen #5,no,legs.csv,154,run-20261112T082804Z-4150f8
+txn_00000073,1,evt_00000073_1,2025-01-01T00:08:31Z,acc_cust_000020,Jon Patel #20 (JPY),DEBIT,75705,JPY,ATM withdrawal,no,legs.csv,195,run-20261112T082804Z-4150f8
+txn_00000073,2,evt_00000073_2,2025-01-01T00:08:31Z,acc_int_jpy,Bank clearing account (JPY),CREDIT,75705,JPY,ATM withdrawal - bank side,no,legs.csv,107,run-20261112T082804Z-4150f8
+txn_00000074,1,evt_00000074_1,2025-01-01T00:08:38Z,acc_cust_000013,Carla Patel #13 (GBP),DEBIT,3768.19,GBP,Split payment out,no,legs.csv,157,run-20261112T082804Z-4150f8
+txn_00000074,2,evt_00000074_2,2025-01-01T00:08:38Z,acc_cust_000018,Hiro Patel #18 (GBP),CREDIT,2235.60,GBP,Split payment from Carla Patel #13,no,legs.csv,159,run-20261112T082804Z-4150f8
+txn_00000074,3,evt_00000074_3,2025-01-01T00:08:38Z,acc_cust_000008,Hiro Nguyen #8 (GBP),CREDIT,1532.59,GBP,Split payment from Carla Patel #13,no,legs.csv,160,run-20261112T082804Z-4150f8
+txn_00000075,1,evt_00000075_1,2025-01-01T00:08:45Z,acc_cust_000012,Ben Patel #12 (EUR),DEBIT,4899.54,EUR,Split payment out,no,legs.csv,161,run-20261112T082804Z-4150f8
+txn_00000075,2,evt_00000075_2,2025-01-01T00:08:45Z,acc_cust_000017,Grace Patel #17 (EUR),CREDIT,1485.16,EUR,Split payment from Ben Patel #12,no,legs.csv,162,run-20261112T082804Z-4150f8
+txn_00000075,3,evt_00000075_3,2025-01-01T00:08:45Z,acc_cust_000002,Ben Nguyen #2 (EUR),CREDIT,3414.38,EUR,Split payment from Ben Patel #12,no,legs.csv,163,run-20261112T082804Z-4150f8
+txn_00000076,1,evt_00000076_1,2025-01-01T00:08:52Z,acc_cust_000020,Jon Patel #20 (JPY),DEBIT,6285,JPY,Transfer to Elena Nguyen #5,no,legs.csv,164,run-20261112T082804Z-4150f8
+txn_00000076,2,evt_00000076_2,2025-01-01T00:08:52Z,acc_cust_000005,Elena Nguyen #5 (JPY),CREDIT,6285,JPY,Transfer from Jon Patel #20,no,legs.csv,165,run-20261112T082804Z-4150f8
+txn_00000077,1,evt_00000077_1,2025-01-01T00:08:59Z,acc_int_usd,Bank clearing account (USD),DEBIT,3275.13,USD,Cash deposit - bank side,no,legs.csv,166,run-20261112T082804Z-4150f8
+txn_00000077,2,evt_00000077_2,2025-01-01T00:08:59Z,acc_cust_000006,Farid Nguyen #6 (USD),CREDIT,3275.13,USD,Cash deposit,no,legs.csv,167,run-20261112T082804Z-4150f8
+txn_00000078,1,evt_00000078_1,2025-01-01T00:09:06Z,acc_cust_000007,Grace Nguyen #7 (EUR),DEBIT,3249.48,EUR,Transfer to Ben Nguyen #2,no,legs.csv,168,run-20261112T082804Z-4150f8
+txn_00000078,2,evt_00000078_2,2025-01-01T00:09:06Z,acc_cust_000002,Ben Nguyen #2 (EUR),CREDIT,3249.48,EUR,Transfer from Grace Nguyen #7,no,legs.csv,169,run-20261112T082804Z-4150f8
+txn_00000079,1,evt_00000079_1,2025-01-01T00:09:13Z,acc_cust_000011,Alice Patel #11 (USD),DEBIT,981.61,USD,Transfer to Farid Nguyen #6,no,legs.csv,118,run-20261112T082804Z-4150f8
+txn_00000079,2,evt_00000079_2,2025-01-01T00:09:13Z,acc_cust_000006,Farid Nguyen #6 (USD),CREDIT,981.61,USD,Transfer from Alice Patel #11,no,legs.csv,171,run-20261112T082804Z-4150f8
+txn_00000080,1,evt_00000080_1,2025-01-01T00:09:20Z,acc_cust_000002,Ben Nguyen #2 (EUR),DEBIT,116.05,EUR,Transfer to Grace Nguyen #7,no,legs.csv,172,run-20261112T082804Z-4150f8
+txn_00000080,2,evt_00000080_2,2025-01-01T00:09:20Z,acc_cust_000007,Grace Nguyen #7 (EUR),CREDIT,116.05,EUR,Transfer from Ben Nguyen #2,no,legs.csv,173,run-20261112T082804Z-4150f8
+txn_00000082,1,evt_00000082_1,2025-01-01T00:09:34Z,acc_cust_000011,Alice Patel #11 (USD),DEBIT,4082.58,USD,Transfer to Farid Nguyen #6,no,legs.csv,177,run-20261112T082804Z-4150f8
+txn_00000082,2,evt_00000082_2,2025-01-01T00:09:34Z,acc_cust_000006,Farid Nguyen #6 (USD),CREDIT,4082.58,USD,Transfer from Alice Patel #11,no,legs.csv,178,run-20261112T082804Z-4150f8
+txn_00000084,1,evt_00000084_1,2025-01-01T00:09:48Z,acc_cust_000002,Ben Nguyen #2 (EUR),DEBIT,3226.63,EUR,Transfer to Grace Patel #17,no,legs.csv,181,run-20261112T082804Z-4150f8
+txn_00000084,2,evt_00000084_2,2025-01-01T00:09:48Z,acc_cust_000017,Grace Patel #17 (EUR),CREDIT,3226.63,EUR,Transfer from Ben Nguyen #2,no,legs.csv,182,run-20261112T082804Z-4150f8
+txn_00000087,1,evt_00000087_1,2025-01-01T00:10:09Z,acc_cust_000020,Jon Patel #20 (JPY),DEBIT,167680,JPY,Transfer to Elena Patel #15,no,legs.csv,187,run-20261112T082804Z-4150f8
+txn_00000087,2,evt_00000087_2,2025-01-01T00:10:09Z,acc_cust_000015,Elena Patel #15 (JPY),CREDIT,167680,JPY,Transfer from Jon Patel #20,no,legs.csv,188,run-20261112T082804Z-4150f8
+txn_00000093,1,evt_00000093_1,2025-01-01T00:10:51Z,acc_cust_000006,Farid Nguyen #6 (USD),DEBIT,165.99,USD,ATM withdrawal,no,legs.csv,199,run-20261112T082804Z-4150f8
+txn_00000093,2,evt_00000093_2,2025-01-01T00:10:51Z,acc_int_usd,Bank clearing account (USD),CREDIT,165.99,USD,ATM withdrawal - bank side,no,legs.csv,200,run-20261112T082804Z-4150f8
+txn_00000094,1,evt_00000094_1,2025-01-01T00:10:58Z,acc_cust_000008,Hiro Nguyen #8 (GBP),DEBIT,41.92,GBP,Transfer to Carla Patel #13,no,legs.csv,201,run-20261112T082804Z-4150f8
+txn_00000094,2,evt_00000094_2,2025-01-01T00:10:58Z,acc_cust_000013,Carla Patel #13 (GBP),CREDIT,41.92,GBP,Transfer from Hiro Nguyen #8,no,legs.csv,202,run-20261112T082804Z-4150f8
+txn_00000095,1,evt_00000095_1,2025-01-01T00:11:05Z,acc_int_gbp,Bank clearing account (GBP),DEBIT,3188.62,GBP,Cash deposit - bank side,no,legs.csv,203,run-20261112T082804Z-4150f8
+txn_00000095,2,evt_00000095_2,2025-01-01T00:11:05Z,acc_cust_000013,Carla Patel #13 (GBP),CREDIT,3188.62,GBP,Cash deposit,no,legs.csv,204,run-20261112T082804Z-4150f8
+txn_00000096,1,evt_00000096_1,2025-01-01T00:11:12Z,acc_int_gbp,Bank clearing account (GBP),DEBIT,1402.84,GBP,Cash deposit - bank side,no,legs.csv,205,run-20261112T082804Z-4150f8
+txn_00000096,2,evt_00000096_2,2025-01-01T00:11:12Z,acc_cust_000008,Hiro Nguyen #8 (GBP),CREDIT,1402.84,GBP,Cash deposit,no,legs.csv,206,run-20261112T082804Z-4150f8
+txn_00000100,1,evt_00000100_1,2025-01-01T00:11:40Z,acc_int_usd,Bank clearing account (USD),DEBIT,461.73,USD,Cash deposit - bank side,no,legs.csv,142,run-20261112T082804Z-4150f8
+txn_00000100,2,evt_00000100_2,2025-01-01T00:11:40Z,acc_cust_000011,Alice Patel #11 (USD),CREDIT,461.73,USD,Cash deposit,no,legs.csv,147,run-20261112T082804Z-4150f8

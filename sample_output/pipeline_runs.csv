@@ -1,0 +1,3 @@
+run_id,status,started_at,finished_at,legs_file,rows_read,rows_loaded,rows_already_loaded,rows_rejected,txns_loaded,txns_quarantined,failure_reason
+run-20261112T082804Z-4150f8,success,2026-11-12T08:28:04.825463Z,2026-11-12T08:28:04.889915Z,legs.csv,214,160,0,54,75,25,
+run-20261112T082805Z-0352af,skipped,2026-11-12T08:28:05.424729Z,2026-11-12T08:28:05.449232Z,legs.csv,,,,,,,

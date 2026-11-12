@@ -1,0 +1,2 @@
+# Runtime uses only the Python 3.10+ standard library (sqlite3, csv, decimal).
+pytest>=8

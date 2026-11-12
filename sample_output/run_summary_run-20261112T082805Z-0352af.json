@@ -1,0 +1,14 @@
+{
+  "duration_seconds": 0.0098,
+  "finished_at": "2026-11-12T08:28:05.449232Z",
+  "legs_file": "legs.csv",
+  "note": "identical input already processed by run-20261112T082804Z-4150f8; nothing done (use --force to reprocess)",
+  "rows_read": 0,
+  "run_id": "run-20261112T082805Z-0352af",
+  "started_at": "2026-11-12T08:28:05.424729Z",
+  "status": "skipped",
+  "timings": {
+    "read": 0.0034
+  },
+  "unexpected_columns": []
+}
